@@ -1,0 +1,16 @@
+log:
+  version: 1
+  formatters:
+    basic:
+      (): "log_formatter.Basic"
+      tzname: "Asia/Seoul"
+  handlers:
+    console:
+      class: logging.StreamHandler
+      level: INFO
+      formatter: basic
+      stream: ext://sys.stdout
+  loggers:
+    term_project_crawl:
+      level: INFO
+      handlers: [console]

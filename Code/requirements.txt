@@ -1,0 +1,13 @@
+sqlalchemy
+pandas
+fbprophet
+plotly
+pymysql
+pytz
+twisted
+scrapy
+beautifulsoup4
+requests
+APScheduler
+pyyaml
+python-dateutil
